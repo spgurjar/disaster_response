@@ -69,7 +69,7 @@ async function extractAndGeocode(description) {
         headers: {
           'User-Agent': 'DisasterResponseApp/1.0 (contact@yourdomain.com)',
           // 'Referer':    'http://localhost:3000',
-          'Referer': 'https://disaster-response-frontend-psi.vercel.app/'
+          'Referer': 'https://disaster-response-frontend.onrender.com/'
         }
       }
     );
