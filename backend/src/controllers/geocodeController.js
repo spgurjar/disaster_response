@@ -77,7 +77,8 @@ exports.geocode = async (req, res) => {
           params: { q: location_name, format: 'json', limit: 1 },
           headers: {
             'User-Agent': 'DisasterResponseApp/1.0 (contact@yourdomain.com)',
-            'Referer': 'http://localhost:3000'
+            // 'Referer': 'http://localhost:3000'
+            'Referer': 'https://disaster-response-frontend-psi.vercel.app/'
           }
         }
       );
