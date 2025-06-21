@@ -4,7 +4,7 @@ A real-time, full-stack application to track and coordinate responses to disaste
 
 Key features:
 
-* **Disaster Management**: Create, update, delete disasters with title, description, tags, and automated location extraction + geocoding.
+* **Disaster Management**: Create post about disasters with title, description, tags, and automated location extraction + geocoding.
 * **Real-Time Updates**: WebSocket-powered events (`disaster_updated`, `social_media_updated`, `resources_updated`, `official_updates_updated`) to keep the UI in sync across clients.
 * **Social Media Aggregation**: Mock social feed fetched and cached per disaster, with live update broadcasts.
 * **Resource Mapping**: Geospatial lookup of nearby resources using PostGIS functions or RPCs, with caching.
