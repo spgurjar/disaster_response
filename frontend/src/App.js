@@ -229,7 +229,7 @@ function App() {
         {/* Create Disaster */}
         <section className="section glass-card">
           <div className="section-header">
-            <h2><span role="img" aria-label="create">📝</span> Create Disaster</h2>
+            <h2><span role="img" aria-label="create">📝</span> Post about a disaster</h2>
           </div>
           <form className="form" onSubmit={e => { e.preventDefault(); createDisaster(); }}>
             <input
@@ -249,7 +249,7 @@ function App() {
               value={tags}
               onChange={e => setTags(e.target.value)}
             />
-            <button type="submit" className="primary-btn">Create</button>
+            <button type="submit" className="primary-btn">Post</button>
             {error && <div className="error">Error: {error}</div>}
           </form>
         </section>
