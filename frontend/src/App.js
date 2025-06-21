@@ -2,7 +2,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import io from "socket.io-client";
 import "./App.css";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5001";
+const API_BASE = "https://disaster-response-backend-f69m.onrender.com";
+
+// console.log("base url", API_BASE);
 
 function App() {
   // ... (existing state, unchanged)
